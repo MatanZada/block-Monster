@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <div class="AppContainer">
+        <h1>block monster</h1>
+        <h2>Adding new Movie</h2>
+        <p>
+            If you would like to add a new movie to our library, please fill out the
+            form below.
+        </p>
+        <div data-role="inputsContainer" class="inputsContainer">
+            <input type="text" placeholder="name" name="movie-name" />
+            <input type="text" placeholder="country" name="movie-country" />
+            <input type="text" placeholder="cast" name="movie-cast" />
+            <input type="date" placeholder="date" name="movie-date" />
+            <button data-role="save-movie">Save</button>
+            <div data-role='movie-holder'></div>
+            <div data-role="table"></div>
+        </div>
+        <script src="./js/movieH.js"></script>
+</body>
+
+</html>

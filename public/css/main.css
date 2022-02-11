@@ -1,0 +1,65 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+ }
+.AppContainer {
+margin: 0 auto;
+width: 40vw;
+margin-top: 40px;
+margin-bottom: 40px;
+border: 1px solid rgb(58, 58, 58);
+padding: 10px;
+border-radius: 8px;
+background-color: silver;
+overflow: hidden;
+ }
+ h1 {
+text-align: center;
+font-size: 48px;
+color: crimson;
+ }
+  h2 {
+font-size: 24px;
+text-decoration: underline;
+display: block;
+margin: 10px;
+ }
+ p {
+font-size: 16px;
+display: block;
+margin: 10px;
+}
+.inputsContainer {
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+}
+input {
+border-radius: 8px;
+padding: 4px;
+margin: 4px;
+ }
+ button {
+background-color: crimson;
+color: silver;
+border-radius: 8px;
+padding: 4px;
+font-weight: bold;
+width: 40%;
+display: block;
+margin: 0 auto;
+ }
+button:hover {
+background-color: silver;
+color: crimson;
+border: 2px solid crimson;
+transform: scale(1);
+}
